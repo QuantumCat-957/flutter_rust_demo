@@ -27,4 +27,6 @@ cd ..
 
 cp -R libs/android/jniLibs plugin_demo/example/android/app/src/main/
 cp -r libs/ios/hello_world.h  plugin_demo/example/ios/Runner/hello_world.h
-cp -r ./hello_world/target/universal/release/libhello_world.a  libs/ios/libhello_world.a
+cp -r ./hello_world/target/universal/release/libhello_world.a  libs/ios/universal/libhello_world.a
+cp -r ./hello_world/target/aarch64-apple-ios/release/libhello_world.a  libs/ios/aarch64-apple-ios/libhello_world.a
+cp -r ./hello_world/target/x86_64-apple-ios/release/libhello_world.a  libs/ios/x86_64-apple-ios/libhello_world.a
